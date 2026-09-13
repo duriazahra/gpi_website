@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mechBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#mechBg)"/>
+  <circle cx="200" cy="190" r="140" fill="#475569" opacity="0.3"/>
+
+  <!-- Suit Shoulders -->
+  <path d="M 70,400 L 120,290 L 165,300 L 200,340 L 235,300 L 280,290 L 330,400 Z" fill="#0f172a"/>
+  <!-- White Shirt & Grey Tie -->
+  <polygon points="160,250 200,315 175,325 150,265" fill="#f8fafc"/>
+  <polygon points="240,250 200,315 225,325 250,265" fill="#f8fafc"/>
+  <polygon points="190,265 210,265 218,360 200,380 182,360" fill="#b45309"/>
+  <polygon points="190,265 210,265 208,280 192,280" fill="#92400e"/>
+
+  <!-- Lapels -->
+  <polygon points="120,290 170,360 160,250" fill="#1e293b"/>
+  <polygon points="280,290 230,360 240,250" fill="#1e293b"/>
+
+  <!-- Head & Face -->
+  <rect x="175" y="210" width="50" height="55" fill="#d99b6e" rx="4"/>
+  <ellipse cx="200" cy="175" rx="55" ry="65" fill="#d99b6e"/>
+  <ellipse cx="145" cy="180" rx="9" ry="15" fill="#bf7e50"/>
+  <ellipse cx="255" cy="180" rx="9" ry="15" fill="#bf7e50"/>
+
+  <!-- Hair -->
+  <path d="M 145,160 C 145,100 160,90 200,90 C 240,90 255,100 255,160 C 248,115 235,105 200,105 C 165,105 152,115 145,160 Z" fill="#171717"/>
+
+  <!-- Eyebrows -->
+  <path d="M 165,158 Q 180,152 190,158" stroke="#171717" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M 210,158 Q 220,152 235,158" stroke="#171717" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <!-- Eyes -->
+  <circle cx="177" cy="170" r="4" fill="#1e293b"/>
+  <circle cx="223" cy="170" r="4" fill="#1e293b"/>
+  <!-- Nose -->
+  <path d="M 200,170 L 196,196 L 204,196" fill="none" stroke="#a16207" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Moustache -->
+  <path d="M 183,208 Q 200,202 217,208 Q 200,214 183,208 Z" fill="#171717"/>
+  <path d="M 190,218 Q 200,222 210,218" fill="none" stroke="#78350f" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

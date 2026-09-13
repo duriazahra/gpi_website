@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="conBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f2b5c"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#conBg)"/>
+  <!-- Mortarboard Caps Tossing in Air -->
+  <!-- Main Cap -->
+  <g transform="translate(300, 150)">
+    <polygon points="0,-25 70,0 0,25 -70,0" fill="#0f172a" stroke="#ca8a04" stroke-width="3"/>
+    <rect x="-35" y="0" width="70" height="35" rx="6" fill="#1e293b"/>
+    <!-- Tassel -->
+    <line x1="0" y1="0" x2="45" y2="35" stroke="#f59e0b" stroke-width="3"/>
+    <circle cx="0" cy="0" r="4" fill="#f59e0b"/>
+    <circle cx="45" cy="35" r="5" fill="#f59e0b"/>
+  </g>
+  <!-- Small Cap Left -->
+  <g transform="translate(160, 110) rotate(-20)">
+    <polygon points="0,-18 50,0 0,18 -50,0" fill="#0f172a" stroke="#ca8a04" stroke-width="2"/>
+    <rect x="-25" y="0" width="50" height="25" rx="4" fill="#1e293b"/>
+  </g>
+  <!-- Small Cap Right -->
+  <g transform="translate(440, 110) rotate(20)">
+    <polygon points="0,-18 50,0 0,18 -50,0" fill="#0f172a" stroke="#ca8a04" stroke-width="2"/>
+    <rect x="-25" y="0" width="50" height="25" rx="4" fill="#1e293b"/>
+  </g>
+  <!-- Diploma Scroll -->
+  <g transform="translate(300, 240)">
+    <rect x="-40" y="-12" width="80" height="24" rx="4" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <rect x="-6" y="-14" width="12" height="28" fill="#dc2626"/>
+  </g>
+  <!-- Banner -->
+  <rect x="150" y="320" width="300" height="45" rx="22.5" fill="#d97706" opacity="0.95"/>
+  <text x="300" y="348" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">Annual Convocation &amp; Awards</text>
+</svg>
