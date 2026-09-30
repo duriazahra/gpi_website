@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b2347"/>
+      <stop offset="60%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="bldgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="lawnGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15803d"/>
+      <stop offset="100%" stop-color="#166534"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="380" fill="url(#skyGrad)"/>
+
+  <!-- Sun Glow -->
+  <circle cx="680" cy="100" r="70" fill="#fef08a" opacity="0.25"/>
+  <circle cx="680" cy="100" r="45" fill="#fef9c3" opacity="0.4"/>
+
+  <!-- Background Mountain Silhouette -->
+  <path d="M 0,340 L 120,290 L 260,330 L 410,270 L 590,320 L 710,280 L 800,310 L 800,380 L 0,380 Z" fill="#0f172a" opacity="0.3"/>
+
+  <!-- Modern Academic Campus Building -->
+  <!-- Left Wing -->
+  <rect x="110" y="190" width="180" height="150" fill="#e2e8f0" rx="4"/>
+  <!-- Left Wing Windows Grid -->
+  <g fill="url(#glassGrad)">
+    <rect x="125" y="205" width="30" height="35" rx="2"/>
+    <rect x="165" y="205" width="30" height="35" rx="2"/>
+    <rect x="205" y="205" width="30" height="35" rx="2"/>
+    <rect x="245" y="205" width="30" height="35" rx="2"/>
+    
+    <rect x="125" y="255" width="30" height="35" rx="2"/>
+    <rect x="165" y="255" width="30" height="35" rx="2"/>
+    <rect x="205" y="255" width="30" height="35" rx="2"/>
+    <rect x="245" y="255" width="30" height="35" rx="2"/>
+
+    <rect x="125" y="300" width="30" height="30" rx="2"/>
+    <rect x="165" y="300" width="30" height="30" rx="2"/>
+    <rect x="205" y="300" width="30" height="30" rx="2"/>
+    <rect x="245" y="300" width="30" height="30" rx="2"/>
+  </g>
+
+  <!-- Right Wing -->
+  <rect x="510" y="190" width="180" height="150" fill="#e2e8f0" rx="4"/>
+  <!-- Right Wing Windows -->
+  <g fill="url(#glassGrad)">
+    <rect x="525" y="205" width="30" height="35" rx="2"/>
+    <rect x="565" y="205" width="30" height="35" rx="2"/>
+    <rect x="605" y="205" width="30" height="35" rx="2"/>
+    <rect x="645" y="205" width="30" height="35" rx="2"/>
+    
+    <rect x="525" y="255" width="30" height="35" rx="2"/>
+    <rect x="565" y="255" width="30" height="35" rx="2"/>
+    <rect x="605" y="255" width="30" height="35" rx="2"/>
+    <rect x="645" y="255" width="30" height="35" rx="2"/>
+
+    <rect x="525" y="300" width="30" height="30" rx="2"/>
+    <rect x="565" y="300" width="30" height="30" rx="2"/>
+    <rect x="605" y="300" width="30" height="30" rx="2"/>
+    <rect x="645" y="300" width="30" height="30" rx="2"/>
+  </g>
+
+  <!-- Central Administration & Clock/Emblem Tower -->
+  <rect x="280" y="130" width="240" height="210" fill="url(#bldgGrad)" rx="6"/>
+  <polygon points="270,130 400,70 530,130" fill="#0f2b5c"/>
+  
+  <!-- Institute Name Inscription Header -->
+  <rect x="300" y="145" width="200" height="28" fill="#0a1d3d" rx="4"/>
+  <text x="400" y="164" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" fill="#f59e0b" text-anchor="middle" letter-spacing="1.5">GOVT POLYTECHNIC INSTITUTE</text>
+
+  <!-- Central Grand Columns / Entrance -->
+  <g fill="#94a3b8">
+    <rect x="320" y="210" width="14" height="130" rx="2"/>
+    <rect x="360" y="210" width="14" height="130" rx="2"/>
+    <rect x="426" y="210" width="14" height="130" rx="2"/>
+    <rect x="466" y="210" width="14" height="130" rx="2"/>
+  </g>
+
+  <!-- Glass Central Facade -->
+  <rect x="382" y="185" width="36" height="75" fill="url(#glassGrad)" rx="2"/>
+  <!-- Grand Entrance Gate -->
+  <path d="M 378,280 C 378,265 422,265 422,280 L 422,340 L 378,340 Z" fill="#0f172a"/>
+  <path d="M 383,283 C 383,272 417,272 417,283 L 417,340 L 383,340 Z" fill="#d97706" opacity="0.3"/>
+
+  <!-- National Flag on Top of Tower -->
+  <line x1="400" y1="70" x2="400" y2="25" stroke="#cbd5e1" stroke-width="4"/>
+  <polygon points="400,28 445,40 400,52" fill="#15803d"/>
+  <circle cx="414" cy="40" r="6" fill="#ffffff"/>
+  <polygon points="421,37 423,43 417,39 424,39 419,43" fill="#15803d"/>
+
+  <!-- Forecourt & Lawn -->
+  <rect y="340" width="800" height="160" fill="url(#lawnGrad)"/>
+  
+  <!-- Walkway / Driveway -->
+  <polygon points="340,340 460,340 560,500 240,500" fill="#e2e8f0"/>
+  <line x1="400" y1="340" x2="400" y2="500" stroke="#94a3b8" stroke-dasharray="12 12" stroke-width="3"/>
+
+  <!-- Landscaping Trees & Shrubs -->
+  <g fill="#166534">
+    <circle cx="80" cy="335" r="28"/>
+    <circle cx="95" cy="325" r="22"/>
+    <circle cx="715" cy="335" r="28"/>
+    <circle cx="700" cy="325" r="22"/>
+    <circle cx="270" cy="345" r="18" fill="#22c55e"/>
+    <circle cx="530" cy="345" r="18" fill="#22c55e"/>
+  </g>
+  <!-- Tree Trunks -->
+  <rect x="76" y="350" width="8" height="25" fill="#78350f"/>
+  <rect x="712" y="350" width="8" height="25" fill="#78350f"/>
+
+  <!-- Academic Excellence Floating Tag -->
+  <g transform="translate(60, 60)">
+    <rect width="185" height="42" rx="21" fill="#0a1d3d" opacity="0.85"/>
+    <circle cx="21" cy="21" r="14" fill="#f59e0b"/>
+    <text x="21" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="900" fill="#0a1d3d" text-anchor="middle">★</text>
+    <text x="44" y="25" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#ffffff">Accredited Institute</text>
+  </g>
+</svg>
